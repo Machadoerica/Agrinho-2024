@@ -4,8 +4,12 @@
     --cor-de-fundo:var(#5bffe9);
 }
 
-<h1>{
+body{
+    background-color:var(--cor-de-fundo);
+}
+
+h1{
     font-family: Caveat;
     font-size: 45px;
     text-align: center;
-}</h1>
+}
