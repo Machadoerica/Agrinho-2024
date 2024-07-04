@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root{
-    --cor-de-fundo:#5bffe9;
+    --cor-de-fundo:#aff1f3;
 }
 
 body{
-    background-color:var(--cor-de-fundo);
+    background-color:var(#dfb9e9,#afebeb,#ffd4db);
 }
 
 h1{
@@ -15,10 +15,10 @@ h1{
     text-align: center;
 }
 
-h2 i(
+h2 i{
     font-family: var(--fonte-principal--);
     font-size: 35px;
-)
+}
 
 h3{
     font-family: var(--fonte-principal);
