@@ -8,17 +8,17 @@
 }
 
 body {
-    background: linear-gradient(to right, var(--cor-de-fundo1), var(--cor-de-fundo2));
-    background-size: 200% 100%;
+    background: linear-gradient(to bottom, var(--cor-de-fundo1), var(--cor-de-fundo2));
+    background-size: 100% 200%; /* Tamanho grande para permitir a animação na vertical */
     animation: gradientAnimation 10s linear infinite;
 }
 
 @keyframes gradientAnimation {
     0% {
-        background-position: 0% 50%; /* Início: posição inicial */
+        background-position: 0% 0%; /* Início: posição inicial */
     }
     100% {
-        background-position: 100% 50%; /* Fim: mover completamente para a direita */
+        background-position: 0% 100%; /* Fim: mover completamente para baixo */
     }
 }
 
