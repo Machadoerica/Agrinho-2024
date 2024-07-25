@@ -13,6 +13,15 @@ body{
     animation: gradientAnimation 10s linear infinite;
 }
 
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%; /* Início: posição inicial */
+    }
+    100% {
+        background-position: 100% 50%; /* Fim: mover completamente para a direita */
+    }
+}
+
 h1{
     font-family: 'Caveat',cursive;
     font-size: 45px;
