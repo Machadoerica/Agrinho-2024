@@ -5,14 +5,15 @@
     --cor-de-fundo1:#dfbcf7;
     --cor-de-fundo2:#bbf1ef;
     --cor-de-fundo3:#f8bfc8;
+    --fonte-principal: 'Wittgenstein', sans-serif;
 }
 
 body{
-    background: linear-gradient(var(--cor-de-fundo1),var(--cor-e-fundo2),var(--cor-de-fundo3));
+    background: linear-gradient(var(--cor-de-fundo1),var(--cor-de-fundo2),var(--cor-de-fundo3));
 }
 
 h1{
-    font-family: 'Caveat';
+    font-family: 'Caveat',cursive;
     font-size: 45px;
     text-align: center;
 }
