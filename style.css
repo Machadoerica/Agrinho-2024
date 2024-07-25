@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root{
-    --cor-de-fundo:#dfbcf7;
-    --cor-de-fundo:#bbf1ef;
-    --cor-de-fundo:#f8bfc8;
+    --cor-de-fundo1:#dfbcf7;
+    --cor-de-fundo2:#bbf1ef;
+    --cor-de-fundo3:#f8bfc8;
 }
 
 body{
-    background-color:var(--cor-de-fundo--);
-    background: linear-gradient(var(--cor-de-fundo),var(--cor-e-fundo),var(--cor-de-fundo));
+    background: linear-gradient(var(--cor-de-fundo1),var(--cor-e-fundo2),var(--cor-de-fundo3));
 }
 
 h1{
