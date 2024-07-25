@@ -9,6 +9,8 @@
 
 body{
     background: linear-gradient(var(--cor-de-fundo1),var(--cor-de-fundo2));
+    background-size: 200% 100%;
+    animation: gradientAnimation 10s linear infinite;
 }
 
 h1{
