@@ -8,8 +8,8 @@
 }
 
 body {
-    background: linear-gradient(to bottom, var(--cor-de-fundo1), var(--cor-de-fundo2));
-    background-size: 100% 200%; /* Tamanho grande para permitir a animação na vertical */
+    background: linear-gradient(to bottom right, var(--cor-de-fundo1), var(--cor-de-fundo2));
+    background-size: 200% 200%; /* Tamanho grande para permitir a animação diagonal */
     animation: gradientAnimation 10s linear infinite;
 }
 
@@ -18,7 +18,7 @@ body {
         background-position: 0% 0%; /* Início: posição inicial */
     }
     100% {
-        background-position: 0% 100%; /* Fim: mover completamente para baixo */
+        background-position: 100% 100%; /* Fim: mover completamente para a diagonal oposta */
     }
 }
 
